@@ -51,10 +51,21 @@ htmlcov/
 .DS_Store
 
 # Data (customize as needed)
+# Large files - gitignored (regenerate via scripts)
 data/raw/*
 data/processed/*
+data/embeddings/*
+data/citations/*
+
+# Keep structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/embeddings/.gitkeep
+!data/citations/.gitkeep
+
+# Small files - version controlled
+!data/metadata/
+!data/public/
 
 # Models
 models/*.pkl
