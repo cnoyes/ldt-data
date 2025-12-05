@@ -1,0 +1,11 @@
+{
+  "total_talks": 4890,
+  "date_range": {
+    "start": "1971-04-01",
+    "end": "2025-10-01"
+  },
+  "conferences": 110,
+  "speakers": 553,
+  "avg_word_count": 1761,
+  "total_words": 8612975
+}

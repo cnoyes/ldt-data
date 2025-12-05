@@ -57,19 +57,21 @@ pip install -r requirements-dev.txt
 
 ### Initial Data Setup
 
+**✅ Current Status**: Conference talk data already populated (4,890 talks, 1971-2025)
+
 ```bash
-# Scrape all conference talks (30-60 min first run)
-python scripts/scrape_all.py
+# Generate metadata for version control
+python scripts/generate_metadata.py
 
-# Generate NLP embeddings
-python scripts/generate_embeddings.py
-
-# Extract citations
-python scripts/extract_citations.py
-
-# Export public data for consumption
-python scripts/export_public.py
+# Export public data for web consumption
+python scripts/export_for_web.py
 ```
+
+**Available data**:
+- `data/raw/conference_talks.csv` - All talk text (48MB, gitignored)
+- `data/embeddings/conference_talks_embeddings.pkl` - Semantic embeddings (7.2MB, gitignored)
+- `data/metadata/conference_talks.csv` - Talk index without full text (868KB, version controlled)
+- `data/public/*.json` - Exported stats for web apps (version controlled)
 
 ### Monthly Updates (After General Conference)
 
