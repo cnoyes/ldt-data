@@ -2,6 +2,37 @@
 
 This file provides **mandatory instructions** to Claude Code (claude.ai/code) when working with code in this repository.
 
+---
+
+## 🌐 ECOSYSTEM DOCUMENTATION HUB
+
+**This repository (ldt-data) is the central documentation hub for the entire LatterDay Tools ecosystem.**
+
+Before making changes to ANY LDT repository, you MUST read:
+
+1. **[docs/ECOSYSTEM.md](docs/ECOSYSTEM.md)** - Overview of all 8 repositories and their relationships
+2. **[docs/ROADMAP.md](docs/ROADMAP.md)** - Development phases, priorities, and next steps
+
+### Quick Links
+| Document | Purpose |
+|----------|---------|
+| [ECOSYSTEM.md](docs/ECOSYSTEM.md) | All repos, architecture diagram, data flow |
+| [ROADMAP.md](docs/ROADMAP.md) | Phases, priorities, what to work on next |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to any LDT project |
+| [MAINTENANCE_SCHEDULE.md](MAINTENANCE_SCHEDULE.md) | Update schedules for all tools |
+
+### All LDT Repositories
+- **ldt-data** (this repo) - Central data & documentation hub
+- **ldt-web** - Landing page (latterdaytools.io)
+- **ldt-prophet** - Apostle succession calculator
+- **ldt-temples** - Temple construction tracker
+- **ldt-conference** - Conference analytics web UI
+- **conference-analysis** - Python NLP toolkit
+- **ldt-ui** - Shared UI components
+- **bishop-toolkit** - Bishop admin automation
+
+---
+
 ## ⚠️ MANDATORY PRACTICES
 
 **READ FIRST**: Before starting any work, read `.claude/BEST_PRACTICES.md` for comprehensive development guidelines.
