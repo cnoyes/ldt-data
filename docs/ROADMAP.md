@@ -2,7 +2,7 @@
 
 This document outlines the development phases, priorities, and next steps for the LatterDay Tools ecosystem.
 
-**Last Updated**: December 2024
+**Last Updated**: February 2026
 
 ---
 
@@ -32,7 +32,7 @@ This document outlines the development phases, priorities, and next steps for th
 - [x] Index 4,890 conference talks in ldt-data
 - [x] Complete bishop-toolkit agenda management tool
 - [x] Fix hard-coded paths in ldt-temples
-- [x] Consolidate landing pages (archived latterdaytools-landing)
+- [x] Consolidate landing pages into ldt-web
 - [x] Create central ecosystem documentation
 
 ---
@@ -173,7 +173,7 @@ This document outlines the development phases, priorities, and next steps for th
 - **Decision**: Use ldt-data as central documentation hub
 - **Rationale**: Already positioned as data hub, natural extension
 
-- **Decision**: Keep ldt-web's simple design over latterdaytools-landing gradients
+- **Decision**: Keep ldt-web's clean, simple design as the main landing page
 - **Rationale**: User preference for cleaner look
 
 - **Decision**: Build out ldt-ui rather than remove it
